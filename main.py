@@ -10,9 +10,6 @@ configuration = dict({
         "stream": "stream1"
     },
 
-    # Output dir
-    "output_dir": "media",
-
     # Video resolution
     "resolution": {
         "width": 1920,
@@ -22,10 +19,16 @@ configuration = dict({
     # Frames per second
     "fps": 15,
 
-    # Duration in minutes
+    # Duration in minutes before a new video gets created
     "duration": 1,
 
-    # Automatically delete files older than x days, set to 0 to disable
+    # Output directory
+    "output_directory": "media",
+
+    # When enabled, the script will also automate the deletion of old directories
+    "automatic_deletion": False,
+
+    # Automatically delete files older than x days
     "delete_older_than": 21
 })
 
