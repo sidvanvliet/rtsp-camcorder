@@ -7,9 +7,9 @@ import random
 import cv2
 
 
-#######################
-###     Fixtures    ###
-#######################
+####################
+#  Fixtures        #
+####################
 
 @pytest.fixture
 def config():
@@ -38,9 +38,9 @@ def recorder(config):
     return CamCorder(config)
 
 
-#######################
-###      Tests      ###
-#######################
+####################
+#  Tests           #
+####################
 
 # Test create_cv2_stream method
 def test_create_cv2_stream(recorder):

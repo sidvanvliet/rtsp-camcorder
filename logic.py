@@ -40,7 +40,7 @@ class CamCorder:
                 output.release()
 
                 # When enabled, clean up old directories
-                if self.configuration['automatic_deletion'] == True:
+                if self.configuration['automatic_deletion'] is True:
                     self.delete_old_folders()
 
                 capture_duration += 1
