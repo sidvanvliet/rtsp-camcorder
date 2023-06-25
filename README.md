@@ -1,6 +1,7 @@
 <img src="https://i.imgur.com/0HyWl6w.png" alt="RTSP Camcorder logo">
 
 # RTSP-Camcorder
+<img src="https://github.com/sidvanvliet/RTSP-Camcorder/actions/workflows/python-app.yml/badge.svg">
 
 ## Overview
 An adaptable Python script designed to effortlessly capture and store RTSP streams. This versatile tool empowers users to record CCTV feeds onto a (personal) server, providing an alternative to costly subscriptions and eliminating concerns over the storage of sensitive footage in third-party cloud platforms.
